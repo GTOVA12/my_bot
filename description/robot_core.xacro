@@ -129,8 +129,8 @@
     </link>
     <gazebo reference="left_wheel_front">
         <material>Gazebo/Blue</material>
-        <mu1 value="1.0"/>
-        <mu2 value="1.0"/>
+        <mu1 value="0.001"/>
+        <mu2 value="0.001"/>
     </gazebo>
     <!-- RIGHT WHEEL LINK -->
 
@@ -186,8 +186,8 @@
     </link>
     <gazebo reference="right_wheel_front">
         <material>Gazebo/Blue</material>
-        <mu1 value="1.0"/>
-        <mu2 value="1.0"/>
+        <mu1 value="0.001"/>
+        <mu2 value="0.001"/>
     </gazebo>
 
 
